@@ -1,7 +1,7 @@
 // 修改这个列表，更新为自己的 domain list
 const ALLOWED = new Set([
   'hlstest.stashbox.top',
-  'stashbox.top'
+  'h2svma.stashbox.top'
 ]);
 const CORP    = 'same-site';     // same-origin 也行
 const BUCKET  = 'MEDIA';         // 对应 wrangler 的 r2_buckets 绑定名
